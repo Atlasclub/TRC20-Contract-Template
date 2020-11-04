@@ -17,7 +17,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("Atlastoken", "ATLAS", 6) {
+    constructor () public ERC20Detailed("ATLASALFA", "ALFA", 6) {
         _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
     }
 }
